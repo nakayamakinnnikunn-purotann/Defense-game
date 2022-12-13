@@ -15,5 +15,8 @@
 			ctx.strokeText(UD.endMsg, GD.w / 2, GD.h / 2);
 			ctx.fillText(  UD.endMsg, GD.w / 2, GD.h / 2);
 		}
+		if (UD.pnt == 100) {
+　　　　    console.log('CLEAR')
+　　　　　　　} 
 	};
 });
