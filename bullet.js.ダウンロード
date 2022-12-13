@@ -22,7 +22,7 @@
 					if (o.e.hp <= 0) {
 						o.e.enable = false;			// 無効
 						UD.coin += o.e.hpMax / 10;	// 報酬
-						UD.pnt += o.e.hpMax / 10 | 0;	// 得点
+						UD.pnt += o.e.hpMax / 100 | 0;	// 得点
 					}
 				}
 			} else if (mv > o.distance) {
